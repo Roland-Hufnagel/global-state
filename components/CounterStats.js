@@ -1,10 +1,10 @@
-export default function CounterStats() {
-  const countAverage = "???";
-  const countSum = "???";
-  const dragonCount = "???";
+export default function CounterStats({countSum, countAverage, dragonCount}) {
+  // const countAverage = "???";
+  // const countSum = "???";
+  // const dragonCount = "???";
 
   return (
-    <div>
+    <div style={{ backgroundColor: "lightgreen" }}>
       <h2>Counter Stats</h2>
       <p>
         Our counters currently have an average count of{" "}
